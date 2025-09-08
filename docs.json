@@ -1,22 +1,20 @@
 {
-  "theme": "maple",
+  "theme": "willow",
   "name": "MetaDAO",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF6868",
+    "light": "#FF6868",
+    "dark": "#FF6868"
   },
-  "favicon": "/favicon.svg",
+  "logo":  {
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
+  },
+  "favicon": "/logo/logo.png",
   "navigation": {
     "groups": [
       {
-        "group": "Getting started",
-        "pages": [
-          "index"
-        ]
-      },
-      {
-        "group": "Motivation",
+        "group": "Essentials",
         "pages": [
           "motivation/growth",
           "motivation/token-today-bad",
@@ -24,14 +22,15 @@
         ]
       },
       {
-        "group": "How it works",
+        "group": "How it Works",
         "pages": [
           "how-it-works/icos",
-          "how-it-works/futarchy"
+          "how-it-works/futarchy",
+          "how-it-works/legal"
         ]
       },
       {
-        "group": "Benefits",
+        "group": "Benefits & Risks",
         "pages": [
           "benefits/investors",
           "benefits/founders"
@@ -42,10 +41,6 @@
       "anchors": [
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
   },
@@ -62,10 +57,5 @@
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }

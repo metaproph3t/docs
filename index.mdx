@@ -1,18 +1,26 @@
 ---
-title: "Introduction"
 ---
 
-MetaDAO is a place for raising money from the internet.
+<div className="flex flex-col items-center justify-center">
+  <img 
+    src="/images/logo.png" 
+    alt="Main dashboard interface"
+    className="w-20 mb-0"
+  />
+  <h1 className="text-6xl font-bold text-gray-900 dark:text-white mb-0">Welcome to MetaDAO</h1>
+  <p className="text-2xl text-gray-600 dark:text-gray-300">A place for raising money from the internet</p>
+</div>
 
-<Card title="Motivation" icon="sparkles" horizontal href="motivation/growth">
-  Understand why internet capital markets matter and how they're broken today.
+
+<Card title={<p className="text-xl">Essentials</p>} icon="sparkles" href="motivation/growth" className="text-2xl">
+  <p className="text-lg">Why we need MetaDAO and the basics of how it works.</p>
 </Card>
 
 <Columns cols={2}>
-  <Card title="How it works" icon="gear" horizontal href="/how-it-works/icos">
-    Discover how Futarchy ICOs work on MetaDAO's platform.
+  <Card title={<p className="text-xl">How it works</p>} icon="gear" href="/how-it-works/icos">
+    <p className="text-lg">How Futarchy ICOs on MetaDAO work.</p>
   </Card>
-  <Card title="Benefits" icon="sparkles" horizontal href="benefits/investors">
-    Learn how Futarchy ICOs benefit investors and entrepreneurs.
+  <Card title={<p className="text-xl">Benefits</p>} icon="sparkles" href="benefits/investors">
+    <p className="text-lg">How Futarchy ICOs benefit founders and investors.</p>
   </Card>
 </Columns>
