@@ -19,25 +19,23 @@
       {
         "group": "Motivation",
         "pages": [
-          "essentials/settings",
-          "essentials/navigation"
+          "motivation/growth",
+          "motivation/token-today-bad",
+          "motivation/unruggable-icos"
         ]
       },
       {
         "group": "How it works",
         "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/images",
-          "essentials/reusable-snippets"
+          "how-it-works/icos",
+          "how-it-works/futarchy"
         ]
       },
       {
-        "group": "Trade-offs",
+        "group": "Benefits",
         "pages": [
-          "ai-tools/cursor",
-          "ai-tools/claude-code",
-          "ai-tools/windsurf"
+          "benefits/investors",
+          "benefits/founders"
         ]
       }
     ],
