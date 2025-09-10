@@ -22,9 +22,16 @@
         ]
       },
       {
+        "group": "Going From Idea to Funded",
+        "pages": [
+          "idea-to-funded/before-ico",
+          "idea-to-funded/ico",
+          "idea-to-funded/after-ico"
+        ]
+      },
+      {
         "group": "How it Works",
         "pages": [
-          "how-it-works/icos",
           "how-it-works/futarchy",
           "how-it-works/legal"
         ]
