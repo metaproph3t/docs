@@ -6,19 +6,22 @@
     "light": "#FF6868",
     "dark": "#FF6868"
   },
+  "fonts": {
+    "family": "Geist"
+  },
   "logo":  {
     "light": "/images/logo.png",
     "dark": "/images/logo.png"
   },
-  "favicon": "/logo/logo.png",
+  "favicon": "/images/logo.png",
   "navigation": {
     "groups": [
       {
-        "group": "Essentials",
+        "group": "The Basics",
         "pages": [
-          "motivation/growth",
-          "motivation/token-today-bad",
-          "motivation/unruggable-ico"
+          "basics/introduction",
+          "basics/what-is-metadao",
+          "basics/market-based-governance"
         ]
       },
       {
