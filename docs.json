@@ -19,24 +19,24 @@
       {
         "group": "The Basics",
         "pages": [
-          "basics/introduction",
-          "basics/what-is-metadao",
-          "basics/market-based-governance"
+          "index"
         ]
       },
       {
-        "group": "Going From Idea to Funded",
+        "group": "How Launches Work",
         "pages": [
-          "idea-to-funded/before-ico",
-          "idea-to-funded/ico",
-          "idea-to-funded/after-ico"
+          "how-launches-work/founder-creates-a-launch",
+          "how-launches-work/the-community-participates",
+          "how-launches-work/founder-completes-the-launch"
         ]
       },
       {
-        "group": "How it Works",
+        "group": "How Governance Works",
         "pages": [
-          "how-it-works/futarchy",
-          "how-it-works/legal"
+          "how-governance-works/introduction",
+          "how-governance-works/proposal-creation",
+          "how-governance-works/conditional-markets",
+          "how-governance-works/twap-based-resolution"
         ]
       },
       {
