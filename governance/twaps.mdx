@@ -23,7 +23,7 @@ We deal with this by using a special form of TWAP we call a lagging price TWAP.
 In a lagging price TWAP, the number that gets fed into the TWAP isn't the raw price - it's a number that tries to approximate the price but which can only move a certain amount per update.
 We call the number that gets fed into the TWAP an *observation*.
 
-![](./images/twaps.jpg)
+![](../images/twaps.jpg)
 
 To take an example, imagine that a market's initial observation is \$500 
 and it can change at most \$5 per minute. If market is currently trading
