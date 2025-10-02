@@ -1,0 +1,39 @@
+---
+title: "Finalizing Proposals"
+description: "How projects decide whether a proposal passes or fails"
+---
+
+## TWAPs decide whether proposals pass or fail
+
+The goal of futarchy is to accept proposals that increase the value of the project.
+
+Unfortunately, you can't just take prices at the end of the proposal because
+those could be easily manipulated.
+
+So instead, we use time-weighted average prices (TWAPs).
+
+## TWAPs are lagged to mitigate the effects of manipulation
+
+Normal TWAPs also have their flaws. For example, a Solana validator could
+manipulate a TWAP by setting the price extremely high for a few slots.
+If said validator controlled 1% of slots, they could force a proposal
+through by 100xing the pass price during their slots.
+
+We deal with this by using a special form of TWAP we call a lagging price TWAP.
+In a lagging price TWAP, the number that gets fed into the TWAP isn't the raw price - it's a number that tries to approximate the price but which can only move a certain amount per update.
+We call the number that gets fed into the TWAP an *observation*.
+
+![](./images/twaps.jpg)
+
+To take an example, imagine that a market's initial observation is \$500 
+and it can change at most \$5 per minute. If market is currently trading
+at \$550, it will take 10 minutes before the last observation reflects
+the price.
+
+## Thresholds make it slightly harder to pass proposals than to fail them
+
+Futarchy is still new, and it seems prudent to bake in a threshold that makes
+it harder for proposals to pass than to fail.
+
+So for a proposal to pass, its pass TWAp needs to be at least a threshold
+percent above its fial price. By default, this threshold is set to 1.5%.
